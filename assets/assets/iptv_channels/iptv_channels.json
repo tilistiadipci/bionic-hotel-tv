@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-02-05T09:00:00+07:00",
+  "categories": [
+    {
+      "id": "tv_nasional",
+      "name": "TV National",
+      "icon": "tv",
+      "order": 1,
+      "groups": [
+        {
+          "id": "tv_nasional_favorite",
+          "name": "Favorit",
+          "order": 1,
+          "channels": [
+            {
+              "id": "rcti",
+              "name": "RCTI HD",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/RCTI_logo_2015.svg/512px-RCTI_logo_2015.svg.png",
+              "stream_url": "udp://@239.0.0.3:1234",
+              "mode": "iptv",
+              "favorite": true,
+              "order": 1
+            },
+            {
+              "id": "mnctv",
+              "name": "MNCTV HD",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MNCTV_logo_2015.svg/512px-MNCTV_logo_2015.svg.png",
+              "stream_url": "udp://@239.0.0.2:1234",
+              "mode": "iptv",
+              "favorite": true,
+              "order": 2
+            },
+            {
+              "id": "gtv",
+              "name": "GTV HD",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/GTV_logo_2022.svg/512px-GTV_logo_2022.svg.png",
+              "stream_url": "udp://@239.0.0.1:1234",
+              "mode": "iptv",
+              "favorite": true,
+              "order": 3
+            },
+            {
+              "id": "inews",
+              "name": "iNews HD",
+              "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/INews_logo_2023.svg/512px-INews_logo_2023.svg.png",
+              "stream_url": "udp://@239.0.0.4:1234",
+              "mode": "iptv",
+              "favorite": true,
+              "order": 4
+            },
+            {
+              "id": "sctv",
+              "name": "SCTV",
+              "logo": "assets/logo/sctv.png",
+              "stream_url": "http://210.210.155.35/qwr9ew/s/s03/02.m3u8",
+              "mode": "iptv",
+              "favorite": true,
+              "order": 5
+            }
+          ]
+        },
+        {
+          "id": "tv_nasional_lainnya",
+          "name": "Lainnya",
+          "order": 2,
+          "channels": [
+            {
+              "id": "tvri",
+              "name": "TVRI",
+              "logo": "assets/logo/tvri.png",
+              "stream_url": "https://www.youtube.com/live/jjLr0VblB3U?si=xwnJ5LQ4fjOZG84Q",
+              "mode": "youtube",
+              "favorite": false,
+              "order": 1
+            },
+            {
+              "id": "metrotv",
+              "name": "Metro TV",
+              "logo": "assets/logo/metrotv.png",
+              "stream_url": "https://www.youtube.com/live/AUE5iHINUIw?si=6IZHiADG_7NEzV-k",
+              "mode": "youtube",
+              "favorite": false,
+              "order": 2
+            },
+            {
+              "id": "kompastv",
+              "name": "Kompas TV",
+              "logo": "assets/logo/kompastv.png",
+              "stream_url": "https://www.youtube.com/live/DOOrIxw5xOw?si=EU9z-bHjij3U-MiP",
+              "mode": "youtube",
+              "favorite": false,
+              "order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tv_international",
+      "name": "TV International",
+      "icon": "public",
+      "order": 2,
+      "groups": [
+        {
+          "id": "news",
+          "name": "News",
+          "order": 1,
+          "channels": [
+            {
+              "id": "cnn",
+              "name": "CNN International",
+              "logo": "assets/logo/cnn.png",
+              "stream_url": "http://example.com/cnn.m3u8",
+              "order": 1
+            },
+            {
+              "id": "bbc",
+              "name": "BBC World News",
+              "logo": "assets/logo/bbc.png",
+              "stream_url": "http://example.com/bbc.m3u8",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "entertainment",
+          "name": "Entertainment",
+          "order": 2,
+          "channels": [
+            {
+              "id": "hbo",
+              "name": "HBO",
+              "logo": "assets/logo/hbo.png",
+              "stream_url": "http://example.com/hbo.m3u8",
+              "order": 1
+            },
+            {
+              "id": "fox",
+              "name": "FOX",
+              "logo": "assets/logo/fox.png",
+              "stream_url": "http://example.com/fox.m3u8",
+              "order": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
