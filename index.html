@@ -11,17 +11,58 @@
       margin: 0;
       padding: 0;
       background-color: #0D0D0D;
+      color: #D4AF37;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #loading {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    #error {
+      color: #FF5252;
+      font-size: 16px;
+      margin-top: 16px;
+      max-width: 80%;
+      text-align: center;
     }
   </style>
+  <script src="flutter.js" defer></script>
 </head>
 <body>
+  <div id="loading">Memuat Hotel IPTV...</div>
+  <div id="error"></div>
+
   <script>
-    // Paksa Flutter menggunakan mode HTML murni (kompatibel dengan browser TV)
-    window.flutterConfiguration = {
-      renderer: "html"
+    window.onerror = function(msg, url, line) {
+      document.getElementById('error').innerText = 'Error: ' + msg + ' (Line: ' + line + ')';
     };
+
+    window.addEventListener('load', function () {
+      if (!window._flutter || !window._flutter.loader) {
+        document.getElementById('error').innerText = 'Error: flutter.js gagal dimuat.';
+        return;
+      }
+
+      _flutter.loader.loadEntrypoint({
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine({
+            useLocalCanvasKit: true
+          }).then(function (appRunner) {
+            var el = document.getElementById('loading');
+            if (el) el.remove();
+            appRunner.runApp();
+          }).catch(function(err) {
+            document.getElementById('error').innerText = 'Engine Error: ' + err;
+          });
+        }
+      });
+    });
   </script>
-  <!-- Panggil JavaScript Flutter secara langsung tanpa WASM -->
-  <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
