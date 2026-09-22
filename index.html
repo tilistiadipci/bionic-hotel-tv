@@ -128,9 +128,9 @@
       });
     };
 
-    // Load main.dart.js langsung
+    // Load main.dart.js langsung dengan cache-buster agar TV selalu mengambil file terbaru
     var script = document.createElement('script');
-    script.src = 'main.dart.js';
+    script.src = 'main.dart.js?v=' + new Date().getTime();
     script.type = 'application/javascript';
     script.onload = function() {
       // Hapus loading container saat Flutter sudah siap
