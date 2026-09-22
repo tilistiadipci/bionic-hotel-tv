@@ -1,6 +1,6 @@
-
+﻿
 var CanvasKitInit = (() => {
-  var _scriptName = import.meta.url;
+  var _scriptName = (typeof document !== "undefined" && document.currentScript ? document.currentScript.src : window.location.href);
   
   return (
 function(moduleArg = {}) {
@@ -156,7 +156,7 @@ f[n+1]=h[k+1];f[n+2]=h[k+2];f[n+3]=h[k+3];f[n+4]=h[k+4];f[n+5]=h[k+5];f[n+6]=h[k
 G[b>>2],G[b+4>>2],G[b+8>>2],G[b+12>>2])},ca:(a,b)=>{O.vertexAttribDivisor(a,b)},ba:(a,b,c,d,f)=>{O.vertexAttribIPointer(a,b,c,d,f)},aa:(a,b,c,d,f,h)=>{O.vertexAttribPointer(a,b,c,!!d,f,h)},$:(a,b,c,d)=>O.viewport(a,b,c,d),_:(a,b,c,d)=>{O.waitSync(Nc[a],b,(c>>>0)+4294967296*d)},Z:a=>{var b=y.length;a>>>=0;if(2147483648<a)return!1;for(var c=1;4>=c;c*=2){var d=b*(1+1/c);d=Math.min(d,a+100663296);a:{d=(Math.min(2147483648,65536*Math.ceil(Math.max(a,d)/65536))-ua.buffer.byteLength+65535)/65536|0;try{ua.grow(d);
 Ba();var f=1;break a}catch(h){}f=void 0}if(f)return!0}return!1},Y:()=>x?x.handle:0,gd:(a,b)=>{var c=0;td().forEach((d,f)=>{var h=b+c;f=D[a+4*f>>2]=h;for(h=0;h<d.length;++h)wa[f++]=d.charCodeAt(h);wa[f]=0;c+=d.length+1});return 0},fd:(a,b)=>{var c=td();D[a>>2]=c.length;var d=0;c.forEach(f=>d+=f.length+1);D[b>>2]=d;return 0},X:a=>{Sa||(va=!0);throw new Qa(a);},ed:()=>52,O:function(){return 70},M:(a,b,c,d)=>{for(var f=0,h=0;h<c;h++){var n=D[b>>2],k=D[b+4>>2];b+=8;for(var p=0;p<k;p++){var t=y[n+p],v=
 ud[a];0===t||10===t?((1===a?qa:ta)(lc(v)),v.length=0):v.push(t)}f+=k}D[d>>2]=f;return 0},W:Wc,V:Yc,U:Zc,T:$c,D:fd,J:kd,S:ld,f:Ad,v:Bd,e:Cd,I:Dd,H:Ed,t:Fd,u:Gd,s:Hd,j:Id,R:Jd,Q:Kd,P:Ld},Z=function(){function a(c){Z=c.exports;ua=Z.hd;Ba();K=Z.kd;Da.unshift(Z.id);Fa--;0==Fa&&(null!==Ia&&(clearInterval(Ia),Ia=null),Ja&&(c=Ja,Ja=null,c()));return Z}var b={a:Md};Fa++;if(q.instantiateWasm)try{return q.instantiateWasm(b,a)}catch(c){ta(`Module.instantiateWasm callback failed with error: ${c}`),ba(c)}Ma??=
-q.locateFile?La("canvaskit.wasm")?"canvaskit.wasm":na+"canvaskit.wasm":(new URL("canvaskit.wasm",import.meta.url)).href;Pa(b,function(c){a(c.instance)}).catch(ba);return{}}(),Mb=a=>(Mb=Z.jd)(a),hd=q._malloc=a=>(hd=q._malloc=Z.ld)(a),Tb=q._free=a=>(Tb=q._free=Z.md)(a),Nd=(a,b)=>(Nd=Z.nd)(a,b),Od=a=>(Od=Z.od)(a),Pd=()=>(Pd=Z.pd)();q.dynCall_viji=(a,b,c,d,f)=>(q.dynCall_viji=Z.qd)(a,b,c,d,f);q.dynCall_vijiii=(a,b,c,d,f,h,n)=>(q.dynCall_vijiii=Z.rd)(a,b,c,d,f,h,n);
+q.locateFile?La("canvaskit.wasm")?"canvaskit.wasm":na+"canvaskit.wasm":(new URL("canvaskit.wasm",_scriptName)).href;Pa(b,function(c){a(c.instance)}).catch(ba);return{}}(),Mb=a=>(Mb=Z.jd)(a),hd=q._malloc=a=>(hd=q._malloc=Z.ld)(a),Tb=q._free=a=>(Tb=q._free=Z.md)(a),Nd=(a,b)=>(Nd=Z.nd)(a,b),Od=a=>(Od=Z.od)(a),Pd=()=>(Pd=Z.pd)();q.dynCall_viji=(a,b,c,d,f)=>(q.dynCall_viji=Z.qd)(a,b,c,d,f);q.dynCall_vijiii=(a,b,c,d,f,h,n)=>(q.dynCall_vijiii=Z.rd)(a,b,c,d,f,h,n);
 q.dynCall_viiiiij=(a,b,c,d,f,h,n,k)=>(q.dynCall_viiiiij=Z.sd)(a,b,c,d,f,h,n,k);q.dynCall_vij=(a,b,c,d)=>(q.dynCall_vij=Z.td)(a,b,c,d);q.dynCall_jii=(a,b,c)=>(q.dynCall_jii=Z.ud)(a,b,c);q.dynCall_jiiiiii=(a,b,c,d,f,h,n)=>(q.dynCall_jiiiiii=Z.vd)(a,b,c,d,f,h,n);q.dynCall_jiiiiji=(a,b,c,d,f,h,n,k)=>(q.dynCall_jiiiiji=Z.wd)(a,b,c,d,f,h,n,k);q.dynCall_ji=(a,b)=>(q.dynCall_ji=Z.xd)(a,b);q.dynCall_iijj=(a,b,c,d,f,h)=>(q.dynCall_iijj=Z.yd)(a,b,c,d,f,h);
 q.dynCall_jiji=(a,b,c,d,f)=>(q.dynCall_jiji=Z.zd)(a,b,c,d,f);q.dynCall_viijii=(a,b,c,d,f,h,n)=>(q.dynCall_viijii=Z.Ad)(a,b,c,d,f,h,n);q.dynCall_iiiiij=(a,b,c,d,f,h,n)=>(q.dynCall_iiiiij=Z.Bd)(a,b,c,d,f,h,n);q.dynCall_iiiiijj=(a,b,c,d,f,h,n,k,p)=>(q.dynCall_iiiiijj=Z.Cd)(a,b,c,d,f,h,n,k,p);q.dynCall_iiiiiijj=(a,b,c,d,f,h,n,k,p,t)=>(q.dynCall_iiiiiijj=Z.Dd)(a,b,c,d,f,h,n,k,p,t);function Cd(a,b,c,d){var f=Pd();try{return K.get(a)(b,c,d)}catch(h){Od(f);if(h!==h+0)throw h;Nd(1,0)}}
 function Ad(a,b){var c=Pd();try{return K.get(a)(b)}catch(d){Od(c);if(d!==d+0)throw d;Nd(1,0)}}function Ld(a,b,c,d,f,h,n,k,p,t){var v=Pd();try{K.get(a)(b,c,d,f,h,n,k,p,t)}catch(z){Od(v);if(z!==z+0)throw z;Nd(1,0)}}function Hd(a,b,c,d){var f=Pd();try{K.get(a)(b,c,d)}catch(h){Od(f);if(h!==h+0)throw h;Nd(1,0)}}function Gd(a,b,c){var d=Pd();try{K.get(a)(b,c)}catch(f){Od(d);if(f!==f+0)throw f;Nd(1,0)}}function Fd(a,b){var c=Pd();try{K.get(a)(b)}catch(d){Od(c);if(d!==d+0)throw d;Nd(1,0)}}
@@ -168,4 +168,4 @@ function Jd(a,b,c,d,f,h){var n=Pd();try{K.get(a)(b,c,d,f,h)}catch(k){Od(n);if(k!
 }
 );
 })();
-export default CanvasKitInit;
+window.CanvasKitInit = CanvasKitInit; if (typeof module !== "undefined") { module.exports = CanvasKitInit; }

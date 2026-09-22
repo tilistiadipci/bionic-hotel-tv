@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -73,14 +73,18 @@
       display: none;
       margin-top: 20px;
       padding: 16px;
-      max-width: 80%;
+      max-width: 85%;
+      max-height: 40vh;
+      overflow-y: auto;
       background: rgba(255, 0, 0, 0.15);
       border: 1px solid #ff4444;
       border-radius: 8px;
       color: #ff6666;
       font-family: monospace;
-      font-size: 12px;
+      font-size: 11px;
+      line-height: 1.4;
       text-align: left;
+      white-space: pre-wrap;
       word-break: break-all;
     }
   </style>
@@ -99,29 +103,52 @@
       var log = document.getElementById('error-log');
       if (log) {
         log.style.display = 'block';
-        log.innerText = 'Error: ' + msg;
+        log.innerText = 'Error:\n' + msg;
       }
     }
     window.onerror = function(message, source, lineno, colno, error) {
-      showError(message + ' (' + source + ':' + lineno + ')');
+      var details = message || '';
+      if (error) {
+        if (typeof error === 'object') {
+          details += '\n' + (error.stack || error.message || error.toString());
+        } else {
+          details += '\n' + error;
+        }
+      }
+      showError(details + '\n(' + source + ':' + lineno + ')');
     };
     window.onunhandledrejection = function(event) {
-      showError(event.reason);
+      var reason = event.reason;
+      var details = '';
+      if (reason) {
+        if (typeof reason === 'object') {
+          details = reason.stack || reason.message || reason.toString();
+        } else {
+          details = '' + reason;
+        }
+      } else {
+        details = 'Unknown promise rejection';
+      }
+      showError('Unhandled rejection:\n' + details);
     };
 
     // Polyfill dynamic import() untuk Smart TV yang tidak mendukung import() statement
     window._loadModule = function(url) {
       return new Promise(function(resolve, reject) {
+        if (window.CanvasKitInit) {
+          resolve({ default: window.CanvasKitInit });
+          return;
+        }
         var s = document.createElement('script');
         s.src = url;
         s.onload = function() {
           if (window.CanvasKitInit) {
             resolve({ default: window.CanvasKitInit });
           } else {
-            resolve(window);
+            resolve({ default: window.CanvasKitInit || window });
           }
         };
-        s.onerror = function() {
+        s.onerror = function(err) {
           reject(new Error('Gagal memuat module: ' + url));
         };
         document.head.appendChild(s);
@@ -142,7 +169,7 @@
             loader.remove();
           }, 500);
         }
-      }, 1500);
+      }, 2000);
     };
     script.onerror = function() {
       showError('Gagal memuat main.dart.js. Periksa koneksi internet.');
