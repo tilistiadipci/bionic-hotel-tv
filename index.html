@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="/">
+  <base href="$FLUTTER_BASE_HREF">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -109,9 +109,23 @@
       showError(event.reason);
     };
 
-    // Konfigurasi Flutter khusus Smart TV: Paksa HTML Renderer (tanpa CanvasKit/WASM)
-    window.flutterConfiguration = {
-      renderer: "html"
+    // Polyfill dynamic import() untuk Smart TV yang tidak mendukung import() statement
+    window._loadModule = function(url) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = url;
+        s.onload = function() {
+          if (window.CanvasKitInit) {
+            resolve({ default: window.CanvasKitInit });
+          } else {
+            resolve(window);
+          }
+        };
+        s.onerror = function() {
+          reject(new Error('Gagal memuat module: ' + url));
+        };
+        document.head.appendChild(s);
+      });
     };
 
     // Load main.dart.js langsung
