@@ -1,4 +1,4 @@
-﻿(function dartProgram(){function copyProperties(a,b){var s=Object.keys(a)
+(function dartProgram(){function copyProperties(a,b){var s=Object.keys(a)
 for(var r=0;r<s.length;r++){var q=s[r]
 b[q]=a[q]}}function mixinPropertiesHard(a,b){var s=Object.keys(a)
 for(var r=0;r<s.length;r++){var q=s[r]
@@ -468,7 +468,7 @@ for(;;)switch(s){case 0:p=v.G
 o=p.window.document.baseURI
 p=o==null?new p.URL(a):new p.URL(a,o)
 s=3
-return A.k(A.dT(window._loadModule(A.bhL(p.toString())),t.m),$async$aNd)
+return A.k(A.dT(import(A.bhL(p.toString())),t.m),$async$aNd)
 case 3:q=c
 s=1
 break
