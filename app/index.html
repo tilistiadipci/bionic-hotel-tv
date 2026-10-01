@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="./">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Hotel TV</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #000000;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+    #tv-boot-log {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 17, 23, 0.95);
+      color: #58a6ff;
+      font-family: Consolas, monospace;
+      font-size: 15px;
+      padding: 24px;
+      z-index: 999999;
+      overflow-y: auto;
+      box-sizing: border-box;
+      line-height: 1.5;
+    }
+    .log-err { color: #f85149; font-weight: bold; }
+    .log-ok  { color: #3fb950; }
+  </style>
+</head>
+<body>
+  <div id="tv-boot-log">
+    <div style="font-size: 20px; font-weight: bold; color: #f0883e; margin-bottom: 8px;">
+      HOTEL TV - TIZEN HTML BOOTLOADER v46
+    </div>
+    <div id="log-entries"></div>
+  </div>
+
+  <script>
+    var logBox = document.getElementById("log-entries");
+    function tvLog(msg, type) {
+      if (logBox) {
+        var el = document.createElement("div");
+        if (type === "err") el.className = "log-err";
+        if (type === "ok") el.className = "log-ok";
+        el.textContent = "[" + new Date().toLocaleTimeString() + "] " + msg;
+        logBox.appendChild(el);
+      }
+      try {
+        var img = new Image();
+        img.src = "http://192.168.1.125/tv_log?msg=" + encodeURIComponent(msg);
+      } catch (e) {}
+    }
+
+    tvLog("Memulai Tizen Web Runtime (HTML Renderer)...", "ok");
+    tvLog("Origin: " + window.location.href);
+
+    window.onerror = function(msg, url, line, col, err) {
+      tvLog("ERROR: " + msg + " at " + url + ":" + line + ":" + col + (err ? ("\n" + err.stack) : ""), "err");
+    };
+
+    window.addEventListener("unhandledrejection", function(e) {
+      var reason = e.reason ? (e.reason.stack || e.reason.message || e.reason) : e;
+      tvLog("PROMISE REJECTION: " + reason, "err");
+    });
+
+    // 1. Tizen Remote Control Keys
+    try {
+      if (window.tizen && tizen.tvinputdevice) {
+        tizen.tvinputdevice.registerKey("MediaPlayPause");
+        tizen.tvinputdevice.registerKey("MediaPlay");
+        tizen.tvinputdevice.registerKey("MediaStop");
+        tizen.tvinputdevice.registerKey("MediaPause");
+        tizen.tvinputdevice.registerKey("MediaFastForward");
+        tizen.tvinputdevice.registerKey("MediaRewind");
+        tvLog("Tombol remote Tizen terdaftar", "ok");
+      }
+    } catch (e) {}
+
+    // 2. Setup Flutter Engine Initializer Hook
+    window._flutter = window._flutter || {};
+    window._flutter.loader = {
+      didCreateEngineInitializer: function(engineInitializer) {
+        tvLog("Engine Initializer diterima! Menginisialisasi HTML renderer...", "ok");
+        engineInitializer.initializeEngine({
+          renderer: "html"
+        }).then(function(appRunner) {
+          tvLog("Engine siap! Menjalankan aplikasi Hotel TV...", "ok");
+          return appRunner.runApp();
+        }).then(function() {
+          tvLog("Aplikasi Hotel TV Berhasil Tampil!", "ok");
+          setTimeout(function() {
+            var bootLog = document.getElementById("tv-boot-log");
+            if (bootLog) bootLog.style.display = "none";
+          }, 1500);
+        }).catch(function(err) {
+          tvLog("Gagal start engine: " + (err.stack || err.message || err), "err");
+        });
+      }
+    };
+
+    // 3. Direct Native Main Dart Boot
+    tvLog("Memuat main.dart.js (HTML Renderer / Bebas WebAssembly)...", "ok");
+    var dartScript = document.createElement("script");
+    dartScript.src = "main.dart.js";
+    dartScript.onload = function() {
+      tvLog("main.dart.js selesai diunduh & dieksekusi", "ok");
+    };
+    dartScript.onerror = function() {
+      tvLog("Gagal memuat main.dart.js", "err");
+    };
+    document.body.appendChild(dartScript);
+  </script>
+</body>
+</html>

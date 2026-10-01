@@ -1,0 +1,175 @@
+[11:57:05 AM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[11:57:05 AM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[11:57:05 AM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[11:57:08 AM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[11:57:08 AM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[11:57:08 AM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[11:57:09 AM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[11:57:09 AM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[11:57:09 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught SyntaxError: Unexpected token ; at 4:11 Unexpected token ;
+[11:57:10 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:12 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:12 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:18 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:20 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:21 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:23 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:25 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:27 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:29 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:31 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:33 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:35 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:37 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:39 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:41 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:43 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:45 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:47 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:49 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:51 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:53 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:55 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:57 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:57:59 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:01 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:03 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:06 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:06 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:07 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:07 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:08 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:08 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:09 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:10 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:10 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:11 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:13 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:14 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:14 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:14 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:15 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:16 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:16 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:16 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:17 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:17 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:18 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:18 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:19 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:20 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:20 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Unable to load asset: "AssetManifest.json".
+[11:58:20 AM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[11:58:20 AM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[11:58:20 AM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[11:58:23 AM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[11:58:23 AM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[11:58:23 AM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[11:58:23 AM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[11:58:23 AM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[11:58:25 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/b667551a8e7d406c089cb2fdf754f2fddfb1dc256a33fcc06c690965c6b9d5d7.ttf: Error: b0.AbortController is not a constructor
+[11:58:25 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/93d4398e39eaad183f478fc6d9ec7c22cd2d6eba2f5d0a13de6f50c10bcaae2a.ttf: Error: b0.AbortController is not a constructor
+[11:58:28 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/f7d4074869afb39d444728a57fe9d7dd18321cd8b7f94f014e8429c7a7b95c96.ttf: Error: b0.AbortController is not a constructor
+[11:58:28 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/ecdb53099b1a68cd24c6900ea5beeafec81bd3c8cb9d0f3c51b9986583ba3982.ttf: Error: b0.AbortController is not a constructor
+[11:58:28 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/492dec3bc33255f9d81bd5fb18704ad72f96f9b9318e4171bc9f9be9dd4bf44b.ttf: Error: b0.AbortController is not a constructor
+[11:58:28 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/b7e339223d56e8c4210c86f1ba87b3d43d6c47e03956ea56f0a7a938ae61b2a3.ttf: Error: b0.AbortController is not a constructor
+[11:58:29 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:30 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:30 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:30 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:31 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:32 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:33 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:34 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:35 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:36 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:37 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:38 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:39 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:40 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:41 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:42 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:43 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:44 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:45 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:46 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:47 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:48 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:49 AM] [TV LOG from 192.168.1.107] ERROR: Uncaught  at 6925:1 Exception: Failed to load font with url https://fonts.gstatic.com/s/a/5116c82d51806846237433e14db46aac284a0a8fa99fb7e8a3cb63d0b524572c.ttf: Error: b0.AbortController is not a constructor
+[11:58:49 AM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[11:58:49 AM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[11:58:49 AM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[11:58:51 AM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[11:58:51 AM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[11:58:51 AM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[11:58:51 AM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[11:58:51 AM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[12:03:32 PM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[12:03:32 PM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[12:03:32 PM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[12:03:34 PM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[12:03:34 PM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[12:03:34 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[12:03:34 PM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[12:03:34 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[12:45:50 PM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[12:45:50 PM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[12:45:50 PM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[12:45:52 PM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[12:45:52 PM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[12:45:52 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[12:45:52 PM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[12:45:52 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[3:21:20 PM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[3:21:20 PM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[3:21:20 PM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[3:21:22 PM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[3:21:22 PM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[3:21:22 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[3:21:22 PM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[3:21:22 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[3:23:57 PM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[3:23:57 PM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[3:23:57 PM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[3:24:01 PM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[3:24:01 PM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[3:24:01 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[3:24:01 PM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[3:24:01 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[3:31:24 PM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[3:31:24 PM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[3:31:24 PM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[3:31:26 PM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[3:31:26 PM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[3:31:26 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[3:31:27 PM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[3:31:27 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[4:01:08 PM] [TV LOG from 192.168.1.107] Memulai Tizen Web Runtime...
+[4:01:08 PM] [TV LOG from 192.168.1.107] Origin: http://192.168.1.106/
+[4:01:08 PM] [TV LOG from 192.168.1.107] Mengunduh main.dart.js (HTML Renderer)...
+[4:01:10 PM] [TV LOG from 192.168.1.107] Engine Initializer siap! Memulai Flutter...
+[4:01:10 PM] [TV LOG from 192.168.1.107] main.dart.js berhasil dimuat & dieksekusi
+[4:01:10 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV Siap
+[4:01:10 PM] [TV LOG from 192.168.1.107] Engine siap! Menjalankan UI Hotel TV...
+[4:01:10 PM] [TV LOG from 192.168.1.107] Aplikasi Hotel TV BERHASIL TAMPIL!
+[11:04:55 AM] [TV LOG from 192.168.1.106] Memulai Tizen Web Runtime...
+[11:04:55 AM] [TV LOG from 192.168.1.106] Origin: http://192.168.1.106/
+[11:04:55 AM] [TV LOG from 192.168.1.106] Mengunduh main.dart.js (HTML Renderer)...
+[11:04:55 AM] [TV LOG from 192.168.1.106] Engine Initializer siap! Memulai Flutter...
+[11:04:55 AM] [TV LOG from 192.168.1.106] main.dart.js berhasil dimuat & dieksekusi
+[11:04:55 AM] [TV LOG from 192.168.1.106] Engine siap! Menjalankan UI Hotel TV...
+[11:04:55 AM] [TV LOG from 192.168.1.106] Aplikasi Hotel TV BERHASIL TAMPIL!
+[11:15:19 AM] [TV LOG from 192.168.1.106] Origin: http://192.168.1.106/
+[11:15:19 AM] [TV LOG from 192.168.1.106] Memulai Tizen Web Runtime...
+[11:15:19 AM] [TV LOG from 192.168.1.106] Mengunduh main.dart.js (HTML Renderer)...
+[11:15:19 AM] [TV LOG from 192.168.1.106] Engine Initializer siap! Memulai Flutter...
+[11:15:19 AM] [TV LOG from 192.168.1.106] main.dart.js berhasil dimuat & dieksekusi
+[11:15:19 AM] [TV LOG from 192.168.1.106] Engine siap! Menjalankan UI Hotel TV...
+[11:15:19 AM] [TV LOG from 192.168.1.106] Aplikasi Hotel TV BERHASIL TAMPIL!
+[1:31:17 PM] [TV LOG from 192.168.1.106] Memulai Tizen Web Runtime...
+[1:31:17 PM] [TV LOG from 192.168.1.106] Origin: http://192.168.1.106/
+[1:31:17 PM] [TV LOG from 192.168.1.106] Mengunduh main.dart.js (HTML Renderer)...
+[1:31:17 PM] [TV LOG from 192.168.1.106] Engine Initializer siap! Memulai Flutter...
+[1:31:17 PM] [TV LOG from 192.168.1.106] main.dart.js berhasil dimuat & dieksekusi
+[1:31:17 PM] [TV LOG from 192.168.1.106] Engine siap! Menjalankan UI Hotel TV...
+[1:31:17 PM] [TV LOG from 192.168.1.106] Aplikasi Hotel TV BERHASIL TAMPIL!
